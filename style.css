@@ -149,16 +149,18 @@ span{
     font-size: 1.1em;
     text-align: center;
     width: min(60%,400px);
-    background:#0a4bab ;
+    background:#056cf0 ;
     padding-block: .5em;
     margin-bottom: .5em;
+    font-weight: 500;
 }
 .btn-2{
+    font-weight: 500;
     font-size: 1.1em;
     text-align: center;
     width: min(60%,400px);
     padding-block: .5em;
-    background:#0a4bab;
+    background:#056cf0;
 }
 .btn-footer{
     text-align: center;
