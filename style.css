@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 *{
     
     box-sizing: border-box;
@@ -82,10 +83,10 @@ span{
     padding-top: .5em;
 }
 .one{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif;
     /* margin: auto; */
-    font-size: 30px;
-    margin-left:.2em ;
+    font-size: 2em;
+    margin-left:.3em ;
     color:var(--primary);
 
 }
@@ -123,13 +124,13 @@ span{
     width: 70%;
 }
 .hero-one h2{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: var(--white);
     padding-top: 2em;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .hero-one p{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: var(--white);
     margin-block: 1rem;
     font-weight: bolder;
@@ -145,14 +146,17 @@ span{
     
 }
 .btn-1{
+    font-size: 1.1em;
     text-align: center;
-    width: min(50%,400px);
+    width: min(60%,400px);
     background:#0a4bab ;
     padding-block: .5em;
     margin-bottom: .5em;
 }
 .btn-2{
-    width: min(50%,400px);
+    font-size: 1.1em;
+    text-align: center;
+    width: min(60%,400px);
     padding-block: .5em;
     background:#0a4bab;
 }
