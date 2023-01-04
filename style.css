@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
+    
     box-sizing: border-box;
     margin: 0em;
     padding: 0em;
@@ -10,6 +12,7 @@
     --grey:#e1f8ff;
 
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -19,6 +22,7 @@ img{
 }
 
 a{
+    font-family: 'Fjalla One', sans-serif;
     color: var(--white);
     text-decoration: none;
     list-style: none;
@@ -38,11 +42,16 @@ i{
     color: black;
 }
 h2{
+    font-family: 'Fjalla One', sans-serif;
     margin-bottom: .5em;
     font-size: 1.8em;
     color: var(--primary)
 }
+h4,h5{
+    font-family: 'Fjalla One', sans-serif;
+}
 p{
+    font-family: 'Fjalla One', sans-serif;
     font-size: 1.2rem;
     color: var(--secondary);
     font-weight: 700;
@@ -73,7 +82,7 @@ span{
     padding-top: .5em;
 }
 .one{
-    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
     /* margin: auto; */
     font-size: 30px;
     margin-left:.2em ;
@@ -114,11 +123,13 @@ span{
     width: 70%;
 }
 .hero-one h2{
+    font-family: 'Anton', sans-serif;
     color: var(--white);
     padding-top: 2em;
     font-size: 1rem;
 }
 .hero-one p{
+    font-family: 'Anton', sans-serif;
     color: var(--white);
     margin-block: 1rem;
     font-weight: bolder;
