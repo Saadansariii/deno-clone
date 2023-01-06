@@ -254,7 +254,7 @@ span{
 }
 .inner-showcase-4{
     /* padding-inline:.6em ; */
-    background: #0a4bab;
+    background-image: linear-gradient(to right, #012887, #1e94e6);
     align-items: center;
     /* text-align: center; */
     color: var(--white);
@@ -332,7 +332,7 @@ span{
 }
 
 .showcase-2-showarea{
-    background:#0a4bab;
+    background-image: linear-gradient(to right, #012887, #1e94e6);
     color: white;
     padding-block: 3em;
     padding-inline: 2em;
@@ -341,8 +341,8 @@ span{
     color: var(--white);
 }
 .showcase-2-showarea .slack{
-    margin-top: 1em;
-    width: min(40%,500px); 
+    margin-top: 1.5em;
+    width: min(25%,500px); 
 
 }
 
@@ -398,7 +398,10 @@ span{
 }
             /* showcase last */
 #showcase-last{
-    background:#0a4bab;
+    background-image: linear-gradient(to right, #012887, #1e94e6);
+    /* padding-block: 2em; */
+}
+.showcase-last-last{
     padding-block: 2em;
 }
 .paragraph p,h1{
@@ -492,7 +495,73 @@ span{
 .hiring .logo{
     margin-top: .9em;
 }
-
+@media (min-width:568px){
+    h2{
+        font-size: 1.8em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    .container,.container-1{
+        margin-inline: 2em;
+    }
+    .hero-one p{
+        /* border: 2px solid; */
+        font-size: 2.8em;
+    }
+    .btn{
+        display: inline-block;
+    }
+    .btn-1,.btn-2{
+        padding: .6em .5em;
+        border-radius: 5px;
+    }
+    .btn-1{
+        margin-bottom: 1em;
+    }
+    .btn-foot{
+        width: 90%;
+        margin: auto;
+    }
+    .easy-1, .fasty, .secure-btn{
+        width: 20%;
+    }
+    .easy, .showcase-flex-2, .fast, .secure, .paragraph{
+        align-items: center;
+    }
+    .easy, .showcase-flex-2, .fast, .secure, .paragraph{
+        width: 90%;
+        margin: auto;
+    }
+    .showcase-flex-2{
+        text-align: center;
+        padding-block: 2em;
+    }
+    .inner-showcase-4{
+        padding-block: 1em;
+    }
+    .stack{
+        margin-top: em;
+        width: 30%;
+    }
+    .showcase-2-showarea{
+        padding-block: 3em;
+        
+    }
+    .showcase-2-showarea .slack{
+        width: 23%;
+        padding-top: 1em;
+    }
+    #showcase-last{
+        padding-block: 3.5em;
+    }
+    .paragraph{
+        padding-bottom: 1em;
+    }
+    .paragraph h1{
+        font-size: 2em;
+    }
+}
 @media (min-width:768px){
     h2{
         font-size: 2.3em;
@@ -538,16 +607,25 @@ span{
     .easy-1, .fasty, .secure-btn{
         margin: auto;
         margin-bottom: 1em;
+        width: 15%;
+
     }
-    .showcase-flex-1,.showcase-2-flex-1,.showcase-2-flex-one,.section-2-flex-1,.secure-gif{
+    .easy, .showcase-flex-2, .fast, .secure, .paragraph{
         width: 90%;
     }
     .stackoverflow{
-        margin-block: 2em;
+        padding-block: 2em;
     }
-    .stack, .slack{
-        margin-block: 2em;
+    .stack{
+        padding-block: 1em;
         width: 20%;
+    }
+    .showarea-1{
+        padding-block:2em ;
+    }
+    .showcase-2-showarea .slack{
+        width: 10%;
+
     }
     .paragraph{
         width: 80%;
