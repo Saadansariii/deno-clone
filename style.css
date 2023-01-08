@@ -96,6 +96,7 @@ span{
 .flex-two{
     /* border: 2px solid black; */
     align-items: center;
+    display: none;
 }
 .center{
     /* border: 2px solid black; */
@@ -414,15 +415,18 @@ span{
     /* padding-block: 2em; */
 }
 .showcase-last-last{
+    /* border: 2px solid black; */
     padding-block: 2em;
 }
+ 
 .paragraph p,h1{
+    /* border: 2px solid black; */
     color: white;
 }
 
 .paragraph h1{
     margin-block: 1em;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 .flexitem{
     display: grid;
@@ -689,14 +693,18 @@ span{
 }
 @media (min-width:1024px){
     h2{
-        font-size: 3em;
-    }
-    p{
         font-size: 2em;
     }
-    .container,.container-1{
-        margin-inline: 2em;
+    p{
+        font-size: 1.2em;
     }
+    .container,.container-1{
+        margin-inline: 1em;
+    }
+    .container-2{
+        margin-inline: 4em;
+    }
+
     .hero-one{
         /* border: 2px solid black; */
         max-width: 410px;
@@ -705,14 +713,134 @@ span{
         width: 100%;
         display: block;
     }
-    .inner-showcase-1{
-        border: 2px solid ;
+    .paragraph{
+        margin: auto;
+        /* border: 2px solid rgb(23, 4, 4); */
+    }
+    .flexitem{
+        /* border: 2px solid black; */
+        margin: auto;
+        width: 80%;
+    }
+    .flex-two{
+        display: contents;
+    }
+    .inner-showcase-1,.inner-showcase-2,.showcase-2-section-1,.showcase-2-section-2,.flexitem-3,.inner-showcase-3,.flexitem,.fine{
+        /* border: 2px solid red ; */
         display: flex;
     }
-    .showcase-flex-1{
-        width: 100%;
+    .showcase-flex-2,.showcase-2-flex-2,.section-2-flex-two,.section-2-flex-2,.showcase-3-flex-1{
+        width: 30%;
+        margin: auto;
+        /* font-size: 1em; */
+        /* border: 2px solid black; */
     }
-    .showcase-flex-2{
-        max-width: 200px;
+    .showcase-2-showarea,.inner-showcase-4,.showcase-last-last{
+        /* border: 2px solid black; */
+        text-align: center;
+        align-items: center;
     }
+    .showcase-flex-1,.showcase-2-flex-1,.section-2-flex-one,.section-2-flex-1,.secure-gif{
+        width: 50%;
+        /* margin: auto; */
+    }
+    .showcase-2-showarea{
+        padding-block: 4em;
+    }
+    .showarea-1 p{
+        font-size: 2em;
+    }
+    .permission{
+        width: 40%;
+        /* : 1em; */
+        margin: auto;
+        /* margin-bottom: 1em; */
+        /* border: 2px solid black; */
+    }
+    .safer{
+        /* border: 2px solid black; */
+        margin-right: auto;
+        width: 30%;
+    }
+    .fine{
+        /* margin: auto; */
+        padding-block: 4em;
+        /* margin-inline: 8em; */
+        /* margin-top: 2em; */
+        /* border: 2px solid black; */
+    }
+    .flexy{
+        /* width: 500px; */
+        /* width: 50%; */
+    }
+    .inner-showcase-2,.inner-showcase-1,.showcase-2-section-1{
+        /* border: 2px solid black; */
+        padding-block: 4em;
+        /* margin: auto; */
+    }
+    .showcase-2-section-2{
+        margin-block-end: 2em;
+    }
+    .slack,.stack{
+        margin: auto;
+    }
+    .stackoverflow{
+        /* border: 2px solid ; */
+        font-size: 2em;
+        margin-block: 1em;
+    }
+    .showarea-1{
+        padding-block: 1em;
+    }
+    .showcase-2-showarea .slack{
+        width: 13%;
+        padding-top: 2em;
+    }
+    .stack{
+        margin-bottom: 1em;
+        /* border: 2px solid; */
+        /* padding: none; */
+        width: 25%;
+    }
+    .flexitem-flex-1,.flexitem-flex-2,.flexitem-flex-3{
+        width: 25%;
+        margin: auto;
+    }
+    /* .inner-showcase-1{
+        margin: auto;
+        border: 2px solid black;
+    } */
+    .foot{
+        color: #808080;
+        font-size: .8em;
+    }
+    .footer-flex p{
+        display: contents;
+    }
+    .footer-flex{
+        display: flex;
+        /* grid-template-columns: repeat(12,1fr); */
+    }
+    /* .deno-logo{
+        border: 2px solid black;
+        grid-column: 1/4;
+    }
+    .row-1{
+
+    }
+    .row-2{
+       
+    }
+    .row-3{
+
+    }
+    .row-4{
+
+    }
+    .row-5{
+
+    }
+    .row-6{
+
+    } */
 }
