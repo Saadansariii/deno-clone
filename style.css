@@ -208,6 +208,7 @@ span{
 }
 .inner-showcase-1{
     /* color: var(--primary); */
+    /* border: 2px solid black; */
 }
 
 .showcase-flex-1{
@@ -217,9 +218,12 @@ span{
     background: var(--grey);
     margin: auto;
     width: min(90%,500px);
+    margin-block:2em;
 }
 .showcase-flex-2{
-    margin-block:2em;
+    margin: auto;
+    width: 90%;
+    /* border: 2px solid black; */
 }
 .flex-11{
     font-size:1.6rem;
@@ -331,14 +335,15 @@ span{
 
 .section-2-section-2{
     background: var(--white);
+    padding-block: 2em;
 }
 .section-2-flex-1{
     box-shadow: 2px 2px 6px 2px grey;
     border-radius: 1em;
-    padding: 1em;
     margin: auto;
     width: 90%;
     background: var(--grey);
+    border: 2px solid black;
 }
 .section-2-flex-2{
     margin-block: 2em;
@@ -347,7 +352,7 @@ span{
 .showcase-2-showarea{
     background-image: linear-gradient(to right, #012887, #1e94e6);
     color: white;
-    padding-block: 3em;
+    padding-block: 2em;
     padding-inline: 2em;
 }
 .showcase-2-showarea p{
@@ -704,7 +709,13 @@ span{
     .container-2{
         margin-inline: 4em;
     }
-
+    #hero{
+        background: url(image/Background\ Image.jpg);
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
     .hero-one{
         /* border: 2px solid black; */
         max-width: 410px;
@@ -819,14 +830,16 @@ span{
     }
     .footer-flex{
         display: flex;
+        gap: .3em;
+        align-items: flex-start;
         /* grid-template-columns: repeat(12,1fr); */
-    }
-    /* .deno-logo{
         border: 2px solid black;
-        grid-column: 1/4;
+    }
+    .deno-logo{
+        /* grid-column: 1/4; */
     }
     .row-1{
-
+        /* display: inline-block; */
     }
     .row-2{
        
@@ -842,5 +855,5 @@ span{
     }
     .row-6{
 
-    } */
+    }
 }
