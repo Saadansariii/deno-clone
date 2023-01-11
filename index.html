@@ -29,12 +29,14 @@
         </div>
     </section>
     <section id="hero">
-        <div class="hero-one container-1">
-            <h2>Meet Deno</h2>
-            <p>The easiest, most secure javaScript runtime.</p>
-            <div class="btn">
-                <a class="btn-1" href="#">installation</a>
-                <a class="btn-2" href="#">Documentation</a>
+        <div class="inner-hero">
+            <div class="hero-one container-1">
+                <h2>Meet Deno</h2>
+                <p>The easiest, most secure javaScript runtime.</p>
+                <div class="btn">
+                    <a class="btn-1" href="#">installation</a>
+                    <a class="btn-2" href="#">Documentation</a>
+                </div>
             </div>
         </div>
     </section>
@@ -59,12 +61,12 @@
             </div>
         </div>
         <div class="inner-showcase-2 container-2">
+            <div class="showcase-2-flex-1">
+                <img src="image/web_compatibility_lg.avif" alt="">
+            </div>
             <div class="showcase-2-flex-2 container-1">
                 <h2 class="me">Web-standard APIs</h2>
                 <p class="you">A runtime that resembles the wen,using browser APIs that work on the server.</p>
-            </div>
-            <div class="showcase-2-flex-1">
-                <img src="image/web_compatibility_lg.avif" alt="">
             </div>
         </div>
         <div class="inner-showcase-3 container-1 container-2">
@@ -107,12 +109,12 @@
             </div>
         </div>
         <div class="showcase-2-section-2 container-2">
+            <div class="section-2-flex-1">
+                <img src="image/v8.png" alt="#">
+            </div>
             <div class="section-2-flex-2 container-1">
                 <h2>Powered by Chrome's V8</h2>
                 <p>Build on top of the fastest and most complete JavaScript engine.</p>
-            </div>
-            <div class="section-2-flex-1">
-                <img src="image/v8.png" alt="#">
             </div>
         </div>
         <div class="showcase-2-showarea">
@@ -171,63 +173,77 @@
     </section>
     <section id="footer">
         <div class="footer-flex container-1">
-            <div class="flex">
+            <div class="row-7">
                 <div class="deno-logo">
-                    <i class="fa-brands fa-2x fa-vaadin"></i>
-                    <a class="one" href="#"></a>
+                    <ul>
+                        <li><i class="fa-brands fa-2x fa-vaadin"></i></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row-1">
+            <div class="row-1 wrap">
                 <h4>Why Deno?</h4>
-                <p class="foot">Develop locally</p>
-                <p class="foot">Develop Globally</p>
-                <p class="foot">compare to node.js</p>
-                <p class="foot">Benchmarks</p>
+                <ul class="foot">
+                    <li>Develop Locally</li>
+                    <li>Deploy Globally</li>
+                    <li>Compare to Node.js</li>
+                    <li>Benchmarks</li>
+                </ul>
             </div>
-            <div class="row-2">
-                <h4>products</h4>
-                <p class="foot">Deno ClI</p>
-                <p class="foot">Deno Deploy</p>
-                <p class="foot">Deploy Subhosting</p>
+            <div class="row-2 wrap">
+                <h4>Products</h4>
+                <ul class="foot">
+                    <li>Dono CLI</li>
+                    <li>Deno Deploy</li>
+                    <li>Deploy Subhosting</li>
+                </ul>
             </div>
-            <div class="row-3">
+            <div class="row-3 wrap">
                 <h4>Sources</h4>
-                <p class="foot">CLI Manual</p>
-                <p class="foot">CLI Runtime API</p>
-                <p class="foot"> Deploy Docs</p>
-                <p class="foot">Standard Library</p>
-                <p class="foot">Thind-party Mondules</p>
+                <ul class="foot">
+                    <li>CLI Manual</li>
+                    <li>CLI Runtime API</li>
+                    <li>Deploy Docs</li>
+                    <li>Standard Library</li>
+                    <li>Third-party Modules</li>
+                </ul>
             </div>
-            <div class="row-4">
+            <div class="row-4 wrap">
                 <h4>community</h4>
-                <p class="foot">Artworks</p>
-                <p class="foot">Translations</p>
-                <p class="foot">Showcase</p>
+                <ul class="foot">
+                    <li>Artworks</li>
+                    <li>Translations</li>
+                    <li>Showcase</li>
+                </ul>
             </div>
-            <div class="row-5">
+            <div class="row-5 wrap">
                 <h4>Company</h4>
-                <p class="foot">Blog</p>
-                <p class="foot">Pricing</p>
-                <p class="foot">News</p>
-                <p class="foot">Mearch</p>
-                <p class="foot">privacy policy</p>
+                <ul class="foot">
+                    <li>Blog</li>
+                    <li>Pricing</li>
+                    <li>News</li>
+                    <li>Merch</li>
+                    <li>Privacy Policy</li>
+                </ul>
             </div>
-            <div class="row-6">
+            <div class="row-6 wrap">
                     <div class="tag-a">
-                        <i class="fa-sharp fa-solid fa-circle"></i>
-                        <a href="#">All system operational</a>
+                        <ul class="foot">
+                            <li class="tag"><i class="fa-sharp fa-solid fa-circle"></i><a class="tag-font" href="#">All system operational</a></li>
+                        </ul>
                     </div>
                     <h5>Copyright & 2022 Deno Land Inc. <br> All rights reserved.</h5>
-                <!-- <div class="hiring"> -->
+                <div class="hiring">
                     <div class="hire">
-                        <a href="#">we are hiring,join us</a>
-                    </div>
+                        <ul class="foot">
+                            <li><a href="#">we are hiring,join us</a></li>
+                        <!-- </ul> -->
+                    <!-- </div> -->
                     <div class="logo">
-                        <i class="fa-brands fa-github"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-discord"></i>
+                        <ul class="foot">
+                            <li><i class="fa-brands fa-2x fa-github"></i><i class="fa-brands fa-2x fa-twitter"></i><i class="fa-brands fa-2x fa-discord"></i></li>
+                        </ul>
                     </div>
-                <!-- </div> -->
+                </div>
             </div>
         </div>
     </section>
