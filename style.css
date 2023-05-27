@@ -187,9 +187,7 @@ span{
 #showcase{
     margin-block: 2em;
 }
-.easy{
-    /* border: 2px solid; */
-}
+
 .easy-1{
     /* margin-top:2em ; */
     /* margin: 10px; */
@@ -207,10 +205,6 @@ span{
     font-weight: bold;
     color: var(--secondary);
     margin-bottom: 2em;
-}
-.inner-showcase-1{
-    /* color: var(--primary); */
-    /* border: 2px solid black; */
 }
 
 .showcase-flex-1{
@@ -394,7 +388,7 @@ span{
     margin-block: 2em;
 }
 .showcase-3-flex-1{
-    color: var(--white);0
+    color: var(--white);
 }
 .showcase-3-flex-1 h2{
     /* font-weight: bold; */
@@ -403,12 +397,7 @@ span{
 .showcase-3-flex-2{
     display: none;
 }
-
-        /* fine */
-
-.fine .permission{
-    
-}
+ 
 .safer{
     margin-bottom: 2em;
 }
@@ -814,10 +803,7 @@ span{
         /* margin-top: 2em; */
         /* border: 2px solid black; */
     }
-    .flexy{
-        /* width: 500px; */
-        /* width: 50%; */
-    }
+
     .inner-showcase-2,.inner-showcase-1,.showcase-2-section-1{
         /* border: 2px solid black; */
         padding-block: 2em;
